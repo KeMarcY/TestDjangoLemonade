@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['0.0.0.0:8000', '*']
 
+CSRF_TRUSTED_ORIGINS = ['https://testdjangolemonade.onrender.com']
+
 
 # Application definition
 
